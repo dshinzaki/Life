@@ -1,0 +1,9 @@
+Experiment into pygame and algorithms associated with Conway's Game of Life
+- Contains 2 classes which implement the Game of Life on a predefined finite universe, BasicLife and NeighborLife. NeighborLife is optimized using a change list and an array of live neighbor counts to save time.
+- Contains a class which implements the Game of Life for a potentially infinite universe, HashmapLife. HashmapLife is optimized using a change list and an list of live neighbor counts to save time.
+- Contains interfaceLife.py an visual interface for playing the Game of Life on a finite, wrap-around universe.
+- Example execution: python [-O] interfaceLife.py
+
+Dylan Shinzaki
+9/10/13
+
