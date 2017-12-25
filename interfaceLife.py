@@ -2,8 +2,8 @@
 # 9/10/13
 # Basic interface to play Conway's Game of Life 
 # Based upon neighborLife implementation of life
-# Execution:
-# python neighborLife.py
+# Example execution:
+# python interfaceLife.py
 
 import pygame, sys, os
 import time
